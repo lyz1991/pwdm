@@ -1,7 +1,7 @@
 const path = require('path')
 const echo = require('node-echo')
 const fs = require('fs')
-const dataFile = path.join(__dirname, '../pwd.text')
+const dataFile = path.join(__dirname, '../.pwdrc')
 const hasfile = fs.existsSync(dataFile)
 const chalk = require('chalk')
 const prompt = require('co-prompt')

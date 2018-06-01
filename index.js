@@ -4,6 +4,9 @@ const program = require('commander')
 const pkg = require('./package.json')
 const tool = require('./module/tool')
 program.version(pkg.version)
+if (process.argv.length == 2) {
+  program.outputHelp()
+}
 program.command('ls')
     .description('show all the account')
     .action(tool.list)
