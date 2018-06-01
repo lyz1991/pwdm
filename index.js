@@ -26,9 +26,5 @@ program.command('set account pwd')
     .description('set the account')
     .alias('s')
     .action(tool.set)
-program.command('clear')
-  .description('clear all the account')
-  .action(tool.clear)
-
 program
     .parse(process.argv);
