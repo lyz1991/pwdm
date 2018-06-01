@@ -15,6 +15,7 @@
   "devDependencies": {},
   "dependencies": {
     "chalk": "^2.4.1",
+    "co": "^4.6.0",
     "co-prompt": "^1.0.0",
     "commander": "^2.15.1",
     "node-echo": "^0.1.1"
